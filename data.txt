@@ -1,0 +1,21 @@
+ENTITY CAR
+
+NAME TABLE:  CARS
+
+id - INT - PRIMARY KEY (NOT_NULL UNIQUE AUTO_INCREMENT)
+license plate - VARCHAR(7) - NOT_NULL UNIQUE
+
+brand - VARCHAR(20) - NOT_NULL
+model - VARCHAR(20) - NULL
+horsepower - SMALLINT - NOT_NULL
+type of fuel (with code) - VARCHAR(3) - NOT_NULL
+insuramce included - BOOL [TINYINT(1)] - NOT_NULL
+
+usage conditions - FLOAT(2, 1) - NOT_NULL
+traveled kms - SMALLINT - NULL
+
+date of production - YEAR - NOT_NULL
+date of purchase - DATE - NULL
+date of sale - DATE - NOT_NULL
+name seller - VARCHAR(30) - NULL
+
